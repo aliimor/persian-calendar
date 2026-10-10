@@ -1,19 +1,14 @@
 {
   "schemaVersion": 1,
   "coverage": "1405",
-  "notes": "مناسبت‌های سال ۱۴۰۵ شامل تعطیلات رسمی، مناسبت‌های مذهبی، ملی و فرهنگی ایران و روزهای جهانی منتخب. جمعه‌های عادی و زادروزها/درگذشت‌های شخصی و رویدادهای تاریخی نامرتبط حذف شده‌اند. تاریخ قمری ممکن است با اعلام رسمی رؤیت هلال تا یک روز تغییر کند.",
+  "notes": "مناسبت‌های سال ۱۴۰۵؛ داده‌ها به‌صورت مرحله‌ای با تقویم رسمی سال ۱۴۰۵ و منابع تقویمی تطبیق داده شده‌اند. برای تاریخ‌های قمری، در موارد اختلافی باید نسخه رسمی مرکز تقویم و اعلام‌های نهایی ملاک قرار گیرد. این مجموعه هنوز ممیزی سطر‌به‌سطر همه مناسبت‌های فرهنگی و بین‌المللی را کامل نکرده است.",
   "source": "https://github.com/alirezadesh/jalali_calendar/blob/main/1405_data.json",
-  "crossCheckSource": "https://taghvimshamsi.ir/occasions/1405/",
+  "crossCheckSource": "https://calendar.ut.ac.ir/documents/2139738/7092644/Calendar-1405.pdf",
   "sourceLicenseNote": "دادهٔ ساختاریافته از منبع عمومی بالا نرمال‌سازی شده است؛ مجوز منبع باید جداگانه بررسی شود. این فایل ادعای تأیید رسمی دولتی ندارد.",
   "events": [
     {
       "date": "1405/01/01",
       "title": "جشن نوروز/جشن سال نو",
-      "category": "official-holiday"
-    },
-    {
-      "date": "1405/01/01",
-      "title": "عید سعید فطر",
       "category": "official-holiday"
     },
     {
@@ -27,8 +22,8 @@
       "category": "international-day"
     },
     {
-      "date": "1405/01/02",
-      "title": "عیدنوروز",
+      "date": "1405/01/01",
+      "title": "عید سعید فطر",
       "category": "official-holiday"
     },
     {
@@ -42,7 +37,7 @@
       "category": "international-day"
     },
     {
-      "date": "1405/01/03",
+      "date": "1405/01/02",
       "title": "عیدنوروز",
       "category": "official-holiday"
     },
@@ -50,6 +45,11 @@
       "date": "1405/01/03",
       "title": "روز جهانی هواشناسی",
       "category": "international-day"
+    },
+    {
+      "date": "1405/01/03",
+      "title": "عیدنوروز",
+      "category": "official-holiday"
     },
     {
       "date": "1405/01/04",
@@ -83,12 +83,12 @@
     },
     {
       "date": "1405/01/13",
-      "title": "روز جهانی کتاب کودک",
+      "title": "روز جهانی اطلاع‌رسانی دربارهٔ بیماری اوتیسم",
       "category": "international-day"
     },
     {
       "date": "1405/01/13",
-      "title": "روز جهانی اطلاع‌رسانی دربارهٔ بیماری اوتیسم",
+      "title": "روز جهانی کتاب کودک",
       "category": "international-day"
     },
     {
@@ -148,13 +148,13 @@
     },
     {
       "date": "1405/02/03",
-      "title": "روزبزرگداشت شیخ بهایی؛ روزملی کارآفرینی؛ روز معماری",
-      "category": "iranian-observance"
+      "title": "روز جهانی کتاب و حق نشر",
+      "category": "international-day"
     },
     {
       "date": "1405/02/03",
-      "title": "روز جهانی کتاب و حق نشر",
-      "category": "international-day"
+      "title": "روزبزرگداشت شیخ بهایی؛ روزملی کارآفرینی؛ روز معماری",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/02/07",
@@ -163,13 +163,13 @@
     },
     {
       "date": "1405/02/09",
-      "title": "ولادت امام  رضا علیه السلام",
-      "category": "religious-observance"
+      "title": "روز ملی روانشناس و مشاور",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/02/09",
-      "title": "روز ملی روانشناس و مشاور",
-      "category": "iranian-observance"
+      "title": "ولادت امام  رضا علیه السلام",
+      "category": "religious-observance"
     },
     {
       "date": "1405/02/10",
@@ -238,12 +238,12 @@
     },
     {
       "date": "1405/03/01",
-      "title": "روز بهره وری و بهینه سازی مصرف",
+      "title": "روز بزرگداشت ملاصدرا",
       "category": "iranian-observance"
     },
     {
       "date": "1405/03/01",
-      "title": "روز بزرگداشت ملاصدرا",
+      "title": "روز بهره وری و بهینه سازی مصرف",
       "category": "iranian-observance"
     },
     {
@@ -253,18 +253,23 @@
     },
     {
       "date": "1405/03/03",
+      "title": "شهادت امام محمد باقر علیه السلام",
+      "category": "religious-observance"
+    },
+    {
+      "date": "1405/03/03",
       "title": "فتح خرمشهر در عملیات بیت المقدس و روز مقاومت، ایثار و پیروزی",
       "category": "iranian-observance"
     },
     {
       "date": "1405/03/04",
-      "title": "شهادت امام محمد باقر علیه السلام",
-      "category": "religious-observance"
-    },
-    {
-      "date": "1405/03/04",
       "title": "روز دزفول، روز مقاومت و پایداری",
       "category": "iranian-observance"
+    },
+    {
+      "date": "1405/03/05",
+      "title": "روز عرفه",
+      "category": "religious-observance"
     },
     {
       "date": "1405/03/06",
@@ -273,11 +278,6 @@
     },
     {
       "date": "1405/03/06",
-      "title": "روز عرفه",
-      "category": "religious-observance"
-    },
-    {
-      "date": "1405/03/07",
       "title": "عید سعید قربان",
       "category": "official-holiday"
     },
@@ -297,8 +297,8 @@
       "category": "official-holiday"
     },
     {
-      "date": "1405/03/15",
-      "title": "قیام 15 خرداد",
+      "date": "1405/03/14",
+      "title": "عید سعید غدیر خم",
       "category": "official-holiday"
     },
     {
@@ -308,7 +308,7 @@
     },
     {
       "date": "1405/03/15",
-      "title": "عید سعید غدیر خم",
+      "title": "قیام 15 خرداد",
       "category": "official-holiday"
     },
     {
@@ -337,24 +337,14 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/03/26",
-      "title": "روز جهانی پدر",
-      "category": "international-day"
-    },
-    {
       "date": "1405/03/27",
       "title": "روز جهانی بیابان زدایی",
       "category": "international-day"
     },
     {
-      "date": "1405/03/28",
-      "title": "روز جهانی پدر",
-      "category": "international-day"
-    },
-    {
       "date": "1405/03/31",
-      "title": "شهادت دکتر مصطفی چمران",
-      "category": "religious-observance"
+      "title": "روز پدر (در کشورهایی که سومین یکشنبه ژوئن را گرامی می‌دارند)",
+      "category": "international-day"
     },
     {
       "date": "1405/03/31",
@@ -362,24 +352,29 @@
       "category": "iranian-observance"
     },
     {
+      "date": "1405/03/31",
+      "title": "شهادت دکتر مصطفی چمران",
+      "category": "religious-observance"
+    },
+    {
       "date": "1405/04/01",
       "title": "جشن آب پاشونک، جشن آغاز تابستان",
       "category": "iranian-observance"
     },
     {
-      "date": "1405/04/04",
+      "date": "1405/04/03",
       "title": "تاسوعای حسینی",
+      "category": "official-holiday"
+    },
+    {
+      "date": "1405/04/04",
+      "title": "عاشورای حسینی",
       "category": "official-holiday"
     },
     {
       "date": "1405/04/05",
       "title": "روز جهانی مبارزه با مواد مخدر",
       "category": "international-day"
-    },
-    {
-      "date": "1405/04/05",
-      "title": "عاشورای حسینی",
-      "category": "official-holiday"
     },
     {
       "date": "1405/04/07",
@@ -398,12 +393,12 @@
     },
     {
       "date": "1405/04/10",
-      "title": "روز صنعت و معدن",
+      "title": "روز بزرگداشت صائب تبریزی",
       "category": "iranian-observance"
     },
     {
       "date": "1405/04/10",
-      "title": "روز بزرگداشت صائب تبریزی",
+      "title": "روز صنعت و معدن",
       "category": "iranian-observance"
     },
     {
@@ -419,11 +414,6 @@
     {
       "date": "1405/04/13",
       "title": "جشن تیرگان، بزرگداشت کمان کشیدن جان فدای ایران، آرش کمانگیر بر فراز البرز",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/04/13",
-      "title": "جشن تیرگان، بزرگداشت کمان کشیدن جان‌فدای ایران، آرش کمانگیر بر فراز البرز",
       "category": "iranian-observance"
     },
     {
@@ -463,12 +453,12 @@
     },
     {
       "date": "1405/05/10",
-      "title": "جشن چله تابستان",
+      "title": "آغاز هفته جهانی شیردهی",
       "category": "iranian-observance"
     },
     {
       "date": "1405/05/10",
-      "title": "آغاز هفته جهانی شیردهی",
+      "title": "جشن چله تابستان",
       "category": "iranian-observance"
     },
     {
@@ -479,11 +469,6 @@
     {
       "date": "1405/05/14",
       "title": "صدور فرمان مشروطیت",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/05/14",
-      "title": "سالروز صدور فرمان مشروطیت",
       "category": "iranian-observance"
     },
     {
@@ -518,8 +503,8 @@
     },
     {
       "date": "1405/05/28",
-      "title": "سالروز وقایع 28 مرداد پس از برکناری محمد مصدق",
-      "category": "iranian-observance"
+      "title": "روز جهانی عکاسی",
+      "category": "international-day"
     },
     {
       "date": "1405/05/28",
@@ -528,22 +513,12 @@
     },
     {
       "date": "1405/05/28",
-      "title": "روز جهانی عکاسی",
-      "category": "international-day"
-    },
-    {
-      "date": "1405/05/28",
-      "title": "سالروز وقایع 28 مرداد پس از برکناری محمد مصدق‌السلطنه",
+      "title": "سالروز وقایع 28 مرداد پس از برکناری محمد مصدق",
       "category": "iranian-observance"
     },
     {
       "date": "1405/05/29",
       "title": "آغاز به کار نخسین جشنواره فیلم کن در شهر کن فرانسه با رقابت ۱۱ فیلم برای کسب نخل طلایی",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/05/30",
-      "title": "روز پزشک",
       "category": "iranian-observance"
     },
     {
@@ -622,11 +597,6 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/06/21",
-      "title": "روز گرامیداشت برنامه نویسان",
-      "category": "iranian-observance"
-    },
-    {
       "date": "1405/06/22",
       "title": "روز گرامیداشت برنامه نویسان",
       "category": "iranian-observance"
@@ -663,13 +633,13 @@
     },
     {
       "date": "1405/06/29",
-      "title": "ولادت امام حسن عسکری علیه السلام",
-      "category": "religious-observance"
+      "title": "تأسیس مجمع ملی فرانسه در هنگامه‌ی انقلاب فرانسه که نقش مجلس مؤسسان قانون اساسی و قانون‌گذاری را به عهده داشت.",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/06/29",
-      "title": "تأسیس مجمع ملی فرانسه در هنگامه‌ی انقلاب فرانسه که نقش مجلس مؤسسان قانون اساسی و قانون‌گذاری را به عهده داشت.",
-      "category": "iranian-observance"
+      "title": "ولادت امام حسن عسکری علیه السلام",
+      "category": "religious-observance"
     },
     {
       "date": "1405/06/30",
@@ -693,12 +663,12 @@
     },
     {
       "date": "1405/07/02",
-      "title": "هوندا شرکت بزرگ ژاپنی تولیدکنندهٔ موتورسیکلت و بعدها خودرو، در این روز رسماً آغاز به کار کرد.",
+      "title": "نیوکمپ، بزرگترین ورزشگاه اروپا و ورزشگاه اختصاصی باشگاه بارسلونای اسپانیا در این روز افتتاح شد.",
       "category": "iranian-observance"
     },
     {
       "date": "1405/07/02",
-      "title": "نیوکمپ، بزرگترین ورزشگاه اروپا و ورزشگاه اختصاصی باشگاه بارسلونای اسپانیا در این روز افتتاح شد.",
+      "title": "هوندا شرکت بزرگ ژاپنی تولیدکنندهٔ موتورسیکلت و بعدها خودرو، در این روز رسماً آغاز به کار کرد.",
       "category": "iranian-observance"
     },
     {
@@ -708,13 +678,13 @@
     },
     {
       "date": "1405/07/05",
-      "title": "روز جهانی جهانگردی",
-      "category": "international-day"
+      "title": "در جریان جنگ جهانی دوم و حمله نیروهای آلمان نازی به ورشو پایتخت لهستان، این شهر پس از ۱۹ روز مقاومت، تسلیم نیروهای آلمان شد.",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/07/05",
-      "title": "در جریان جنگ جهانی دوم و حمله نیروهای آلمان نازی به ورشو پایتخت لهستان، این شهر پس از ۱۹ روز مقاومت، تسلیم نیروهای آلمان شد.",
-      "category": "iranian-observance"
+      "title": "روز جهانی جهانگردی",
+      "category": "international-day"
     },
     {
       "date": "1405/07/06",
@@ -733,8 +703,8 @@
     },
     {
       "date": "1405/07/08",
-      "title": "روزبزرگداشت مولوی",
-      "category": "iranian-observance"
+      "title": "روز جهانی ترجمه و مترجم",
+      "category": "international-day"
     },
     {
       "date": "1405/07/08",
@@ -743,27 +713,12 @@
     },
     {
       "date": "1405/07/08",
-      "title": "روز جهانی ترجمه و مترجم",
-      "category": "international-day"
+      "title": "روزبزرگداشت مولوی",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/07/08",
       "title": "سالروز «قتل عام بابی یار» و کشتار ۳۳٬۷۷۱ یهودی به‌دست یک واحد ویژهٔ «اس اس» آلمان نازی در دره ای به نام «بابی یار» در حد فاصل شمالی شهر کی‌اف در اوکراین",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/07/09",
-      "title": "روز جهانی سالمندان",
-      "category": "international-day"
-    },
-    {
-      "date": "1405/07/09",
-      "title": "پیروزی اسکندر مقدونی در نبرد گوگمل و شکست شاه ایران، داریوش سوم و انقراض امپراطوری بزرگ هخامنشی",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/07/09",
-      "title": "انتخاب فرانسیسکو فرانکو به سمت رهبری رژیم ناسیونالیست اسپانیا و آغاز جنگ داخلی اسپانیا",
       "category": "iranian-observance"
     },
     {
@@ -773,17 +728,32 @@
     },
     {
       "date": "1405/07/09",
+      "title": "انتخاب فرانسیسکو فرانکو به سمت رهبری رژیم ناسیونالیست اسپانیا و آغاز جنگ داخلی اسپانیا",
+      "category": "iranian-observance"
+    },
+    {
+      "date": "1405/07/09",
+      "title": "پیروزی اسکندر مقدونی در نبرد گوگمل و شکست شاه ایران، داریوش سوم و انقراض امپراطوری بزرگ هخامنشی",
+      "category": "iranian-observance"
+    },
+    {
+      "date": "1405/07/09",
+      "title": "روز جهانی سالمندان",
+      "category": "international-day"
+    },
+    {
+      "date": "1405/07/09",
       "title": "قتل عبدالحسین تیمورتاش، دولت‌مرد ایرانی در دوره‌های قاجار و پهلوی، در زندان قصر تهران",
       "category": "iranian-observance"
     },
     {
       "date": "1405/07/10",
-      "title": "مهر روز،جشن مهرگان",
+      "title": "تأسیس حزب توده ایران",
       "category": "iranian-observance"
     },
     {
       "date": "1405/07/10",
-      "title": "تأسیس حزب توده ایران",
+      "title": "مهر روز،جشن مهرگان",
       "category": "iranian-observance"
     },
     {
@@ -798,16 +768,6 @@
     },
     {
       "date": "1405/07/13",
-      "title": "روز نیروی انتظامی",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/07/13",
-      "title": "روز جهانی معلم",
-      "category": "international-day"
-    },
-    {
-      "date": "1405/07/13",
       "title": "آغاز جمهوری پنجم فرانسه و جایگزینی نظام پارلمانیِ جمهوری چهارم با به نظام ریاستی",
       "category": "iranian-observance"
     },
@@ -817,8 +777,13 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/07/14",
-      "title": "روز دامپزشکی",
+      "date": "1405/07/13",
+      "title": "روز جهانی معلم",
+      "category": "international-day"
+    },
+    {
+      "date": "1405/07/13",
+      "title": "روز نیروی انتظامی",
       "category": "iranian-observance"
     },
     {
@@ -827,13 +792,13 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/07/15",
-      "title": "حمله‌ی ارتش ایالات متحده آمریکا به افغانستان با هدف براندازی حکومت طالبان و دستگیری اعضای القاعده",
+      "date": "1405/07/14",
+      "title": "روز دامپزشکی",
       "category": "iranian-observance"
     },
     {
-      "date": "1405/07/16",
-      "title": "روز ملی کودک",
+      "date": "1405/07/15",
+      "title": "حمله‌ی ارتش ایالات متحده آمریکا به افغانستان با هدف براندازی حکومت طالبان و دستگیری اعضای القاعده",
       "category": "iranian-observance"
     },
     {
@@ -847,9 +812,9 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/07/17",
-      "title": "روز جهانی پست",
-      "category": "international-day"
+      "date": "1405/07/16",
+      "title": "روز ملی کودک",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/07/17",
@@ -860,6 +825,11 @@
       "date": "1405/07/17",
       "title": "اعطای جایزه نوبل صلح به آندره ساخاروف دانشمند شوروی و معروف به «پدر بمب هیدروژنی»",
       "category": "iranian-observance"
+    },
+    {
+      "date": "1405/07/17",
+      "title": "روز جهانی پست",
+      "category": "international-day"
     },
     {
       "date": "1405/07/18",
@@ -903,13 +873,13 @@
     },
     {
       "date": "1405/07/25",
-      "title": "ولادت حضرت زینب سلام الله علیها و روز پرستار و بهورز",
-      "category": "religious-observance"
+      "title": "روز جهانی ریشه کنی فقر",
+      "category": "international-day"
     },
     {
       "date": "1405/07/25",
-      "title": "روز جهانی ریشه کنی فقر",
-      "category": "international-day"
+      "title": "ولادت حضرت زینب سلام الله علیها و روز پرستار و بهورز",
+      "category": "religious-observance"
     },
     {
       "date": "1405/07/26",
@@ -938,12 +908,12 @@
     },
     {
       "date": "1405/08/07",
-      "title": "سالروز ورود کوروش بزرگ به بابل در سال 539 پیش از میلاد",
+      "title": "روز کوروش بزرگ: کوروش بزرگ بنیانگذار امپراتوری هخامنشیان در ایران، شهر بابِل، بزرگترین شهر دنیای باستان و مرکز تمدن بابل را فتح کرد.",
       "category": "iranian-observance"
     },
     {
       "date": "1405/08/07",
-      "title": "روز کوروش بزرگ: کوروش بزرگ بنیانگذار امپراتوری هخامنشیان در ایران، شهر بابِل، بزرگترین شهر دنیای باستان و مرکز تمدن بابل را فتح کرد.",
+      "title": "سالروز ورود کوروش بزرگ به بابل در سال 539 پیش از میلاد",
       "category": "iranian-observance"
     },
     {
@@ -973,12 +943,12 @@
     },
     {
       "date": "1405/08/15",
-      "title": "جشن میانه پاییز",
+      "title": "آبراهام لینکلن برای یک دوره چهارساله به ریاست جمهوری ایالات متحده انتخاب شد، دوران ریاست جمهوری او، شاهد تجزیه ایالات جنوبی، آغاز جنگ داخلی و لغو برده‌داری بود.",
       "category": "iranian-observance"
     },
     {
       "date": "1405/08/15",
-      "title": "آبراهام لینکلن برای یک دوره چهارساله به ریاست جمهوری ایالات متحده انتخاب شد، دوران ریاست جمهوری او، شاهد تجزیه ایالات جنوبی، آغاز جنگ داخلی و لغو برده‌داری بود.",
+      "title": "جشن میانه پاییز",
       "category": "iranian-observance"
     },
     {
@@ -988,13 +958,13 @@
     },
     {
       "date": "1405/08/23",
-      "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
-      "category": "official-holiday"
+      "title": "روز جهانی دیابت",
+      "category": "international-day"
     },
     {
       "date": "1405/08/23",
-      "title": "روز جهانی دیابت",
-      "category": "international-day"
+      "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+      "category": "official-holiday"
     },
     {
       "date": "1405/08/24",
@@ -1002,23 +972,18 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/08/25",
-      "title": "روز جهانی فلسفه",
-      "category": "international-day"
-    },
-    {
       "date": "1405/08/28",
       "title": "روز جهانی آقایان",
       "category": "international-day"
     },
     {
-      "date": "1405/08/29",
-      "title": "روز جهانی کودک",
+      "date": "1405/08/28",
+      "title": "روز جهانی فلسفه",
       "category": "international-day"
     },
     {
-      "date": "1405/08/30",
-      "title": "روز جهانی فلسفه",
+      "date": "1405/08/29",
+      "title": "روز جهانی کودک",
       "category": "international-day"
     },
     {
@@ -1053,6 +1018,11 @@
     },
     {
       "date": "1405/09/10",
+      "title": "روز جهانی ایدز",
+      "category": "international-day"
+    },
+    {
+      "date": "1405/09/10",
       "title": "روز مجلس",
       "category": "iranian-observance"
     },
@@ -1062,19 +1032,14 @@
       "category": "religious-observance"
     },
     {
-      "date": "1405/09/10",
-      "title": "روز جهانی ایدز",
-      "category": "international-day"
+      "date": "1405/09/12",
+      "title": "رسمی شدن قانون اساسی جمهوری اسلامی ایران",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/09/12",
       "title": "روز جهانی معلولان",
       "category": "international-day"
-    },
-    {
-      "date": "1405/09/12",
-      "title": "رسمی شدن قانون اساسی جمهوری اسلامی ایران",
-      "category": "iranian-observance"
     },
     {
       "date": "1405/09/13",
@@ -1103,18 +1068,13 @@
     },
     {
       "date": "1405/09/20",
-      "title": "ولادت  امام محمد باقر علیه السلام",
-      "category": "religious-observance"
-    },
-    {
-      "date": "1405/09/20",
-      "title": "روز جهانی کوه نوردی",
-      "category": "international-day"
-    },
-    {
-      "date": "1405/09/20",
       "title": "روز جهانی کوهستان",
       "category": "international-day"
+    },
+    {
+      "date": "1405/09/20",
+      "title": "ولادت  امام محمد باقر علیه السلام",
+      "category": "religious-observance"
     },
     {
       "date": "1405/09/21",
@@ -1158,18 +1118,18 @@
     },
     {
       "date": "1405/10/04",
-      "title": "وفات حضرت زینب سلام الله علیها",
-      "category": "religious-observance"
-    },
-    {
-      "date": "1405/10/04",
       "title": "جشن کریسمس",
-      "category": "religious-observance"
+      "category": "international-day"
     },
     {
       "date": "1405/10/04",
       "title": "روز بزرگداشت دوستی",
       "category": "iranian-observance"
+    },
+    {
+      "date": "1405/10/04",
+      "title": "وفات حضرت زینب سلام الله علیها",
+      "category": "religious-observance"
     },
     {
       "date": "1405/10/05",
@@ -1277,11 +1237,6 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/11/10",
-      "title": "جشن سده، گرامیداشتِ کشف آتش به دستِ هوشنگ شاه",
-      "category": "iranian-observance"
-    },
-    {
       "date": "1405/11/12",
       "title": "بازگشت امام خمینی (ره) به ایران",
       "category": "religious-observance"
@@ -1295,11 +1250,6 @@
       "date": "1405/11/19",
       "title": "روز نیروی هوایی",
       "category": "iranian-observance"
-    },
-    {
-      "date": "1405/11/20",
-      "title": "روز جهانی کودک",
-      "category": "international-day"
     },
     {
       "date": "1405/11/22",
@@ -1322,14 +1272,9 @@
       "category": "iranian-observance"
     },
     {
-      "date": "1405/12/04",
+      "date": "1405/12/03",
       "title": "ولادت امام حسن مجتبی علیه السلام",
       "category": "religious-observance"
-    },
-    {
-      "date": "1405/12/05",
-      "title": "روز بزرگداشت زمین و بانوان",
-      "category": "iranian-observance"
     },
     {
       "date": "1405/12/05",
@@ -1343,13 +1288,13 @@
     },
     {
       "date": "1405/12/07",
-      "title": "شب قدر",
-      "category": "religious-observance"
+      "title": "سالروز استقلال کانون وکلای دادگستری و روز وکیل مدافع",
+      "category": "iranian-observance"
     },
     {
       "date": "1405/12/07",
-      "title": "سالروز استقلال کانون وکلای دادگستری و روز وکیل مدافع",
-      "category": "iranian-observance"
+      "title": "شب قدر",
+      "category": "religious-observance"
     },
     {
       "date": "1405/12/08",
@@ -1357,7 +1302,12 @@
       "category": "religious-observance"
     },
     {
-      "date": "1405/12/10",
+      "date": "1405/12/09",
+      "title": "شب قدر",
+      "category": "religious-observance"
+    },
+    {
+      "date": "1405/12/09",
       "title": "شهادت حضرت علی علیه السلام",
       "category": "official-holiday"
     },
@@ -1387,16 +1337,6 @@
       "category": "official-holiday"
     },
     {
-      "date": "1405/12/22",
-      "title": "جشن چهارشنبه سوری",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/12/23",
-      "title": "جشن چهارشنبه سوری",
-      "category": "iranian-observance"
-    },
-    {
       "date": "1405/12/23",
       "title": "روز جهانی عدد پی  π",
       "category": "international-day"
@@ -1408,23 +1348,36 @@
     },
     {
       "date": "1405/12/25",
+      "title": "جشن چهارشنبه‌سوری",
+      "category": "iranian-observance"
+    },
+    {
+      "date": "1405/12/25",
       "title": "روز بزرگداشت اختر چرخ ادب، پروین اعتصامی",
       "category": "iranian-observance"
-    },
-    {
-      "date": "1405/12/28",
-      "title": "جشن چهارشنبه سوری",
-      "category": "iranian-observance"
-    },
-    {
-      "date": "1405/12/29",
-      "title": "روز ملی شدن صنعت نفت ایران",
-      "category": "official-holiday"
     },
     {
       "date": "1405/12/29",
       "title": "روز جهانی شادی",
       "category": "international-day"
+    },
+    {
+      "date": "1405/12/29",
+      "title": "روز ملی شدن صنعت نفت ایران",
+      "category": "official-holiday"
     }
-  ]
+  ],
+  "audit": {
+    "reviewedOn": "2026-10-10",
+    "primarySource": "تقویم رسمی سال ۱۴۰۵؛ شورای مرکز تقویم مؤسسه ژئوفیزیک دانشگاه تهران",
+    "primarySourceUrl": "https://calendar.ut.ac.ir/documents/2139738/7092644/Calendar-1405.pdf",
+    "secondarySources": [
+      "https://www.bahesab.ir/time/1405/",
+      "https://taghvimshamsi.ir/holidays/1405/",
+      "https://www.bahesab.ir/cimage/1405-pdf-portrait-n.pdf",
+      "https://taghvimeto.ir/calendar/1405/12"
+    ],
+    "scope": "این دور، تعطیلات/مناسبت‌های قمریِ دارای اختلاف روشن، چند مناسبت بین‌المللی با تاریخ میلادی ثابت، و چند مورد تکراری/عنوان‌گذاری‌شده بررسی شد.",
+    "limitations": "این بررسی، بازبینی نهایی و سطر‌به‌سطر تمام مناسبت‌های ۲۸۴گانه نیست؛ برای مناسبت‌های فرهنگیِ غیررسمی و رویدادهای تاریخی، منابع مستقل بیشتری لازم است. تاریخ‌های قمری ممکن است با اعلام رؤیت هلال تغییر کنند."
+  }
 }
