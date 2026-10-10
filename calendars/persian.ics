@@ -815,10 +815,9 @@ DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:چهارشنبه، 6 خرداد — خرداد روز،جشن خ
- ردادگان / عید سعید قربان
+ ردادگان
 DESCRIPTION:تاریخ شمسی: 1405/03/06\nتاریخ میلادی: 202
- 6-05-27\nمناسبت: خرداد روز،جشن خردادگان / عی
- د سعید قربان\nتعطیل رسمی طبق دادهٔ منبع
+ 6-05-27\nمناسبت: خرداد روز،جشن خردادگان
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -827,9 +826,10 @@ UID:jalali-1405-03-07@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
-SUMMARY:پنجشنبه، 7 خرداد
+SUMMARY:پنجشنبه، 7 خرداد — عید سعید قربان
 DESCRIPTION:تاریخ شمسی: 1405/03/07\nتاریخ میلادی: 202
- 6-05-28
+ 6-05-28\nمناسبت: عید سعید قربان\nتعطیل رسمی 
+ طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -908,10 +908,10 @@ DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:پنجشنبه، 14 خرداد — رحلت حضرت امام خ
- مینی / عید سعید غدیر خم
+ مینی
 DESCRIPTION:تاریخ شمسی: 1405/03/14\nتاریخ میلادی: 202
- 6-06-04\nمناسبت: رحلت حضرت امام خمینی / عید س
- عید غدیر خم\nتعطیل رسمی طبق دادهٔ منبع
+ 6-06-04\nمناسبت: رحلت حضرت امام خمینی\nتعطیل
+  رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -920,11 +920,12 @@ UID:jalali-1405-03-15@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
-SUMMARY:جمعه، 15 خرداد — روز جهانی محیط زیست 
- / قیام 15 خرداد
+SUMMARY:جمعه، 15 خرداد — عید سعید غدیر خم / رو
+ ز جهانی محیط زیست / قیام 15 خرداد
 DESCRIPTION:تاریخ شمسی: 1405/03/15\nتاریخ میلادی: 202
- 6-06-05\nمناسبت: روز جهانی محیط زیست / قیام 15
-  خرداد\nتعطیل رسمی طبق دادهٔ منبع
+ 6-06-05\nمناسبت: عید سعید غدیر خم / روز جهانی
+  محیط زیست / قیام 15 خرداد\nتعطیل رسمی طبق 
+ دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1146,10 +1147,9 @@ UID:jalali-1405-04-03@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
-SUMMARY:چهارشنبه، 3 تیر — تاسوعای حسینی
+SUMMARY:چهارشنبه، 3 تیر
 DESCRIPTION:تاریخ شمسی: 1405/04/03\nتاریخ میلادی: 202
- 6-06-24\nمناسبت: تاسوعای حسینی\nتعطیل رسمی ط
- بق دادهٔ منبع
+ 6-06-24
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1158,9 +1158,9 @@ UID:jalali-1405-04-04@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
-SUMMARY:پنجشنبه، 4 تیر — عاشورای حسینی
+SUMMARY:پنجشنبه، 4 تیر — تاسوعای حسینی
 DESCRIPTION:تاریخ شمسی: 1405/04/04\nتاریخ میلادی: 202
- 6-06-25\nمناسبت: عاشورای حسینی\nتعطیل رسمی ط
+ 6-06-25\nمناسبت: تاسوعای حسینی\nتعطیل رسمی ط
  بق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1170,11 +1170,12 @@ UID:jalali-1405-04-05@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
-SUMMARY:جمعه، 5 تیر — روز جهانی مبارزه با مو
- اد مخدر
+SUMMARY:جمعه، 5 تیر — عاشورای حسینی / روز جها
+ نی مبارزه با مواد مخدر
 DESCRIPTION:تاریخ شمسی: 1405/04/05\nتاریخ میلادی: 202
- 6-06-26\nمناسبت: روز جهانی مبارزه با مواد مخ
- در
+ 6-06-26\nمناسبت: عاشورای حسینی / روز جهانی م
+ بارزه با مواد مخدر\nتعطیل رسمی طبق دادهٔ
+  منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1733,11 +1734,9 @@ DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:پنجشنبه، 22 مرداد — روز جهانی چپ دست 
- ها / شهادت امام رضا علیه السلام
+ ها
 DESCRIPTION:تاریخ شمسی: 1405/05/22\nتاریخ میلادی: 202
- 6-08-13\nمناسبت: روز جهانی چپ دست ها / شهادت 
- امام رضا علیه السلام\nتعطیل رسمی طبق داد
- هٔ منبع
+ 6-08-13\nمناسبت: روز جهانی چپ دست ها
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1746,9 +1745,11 @@ UID:jalali-1405-05-23@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
-SUMMARY:جمعه، 23 مرداد
+SUMMARY:جمعه، 23 مرداد — شهادت امام رضا علیه 
+ السلام
 DESCRIPTION:تاریخ شمسی: 1405/05/23\nتاریخ میلادی: 202
- 6-08-14
+ 6-08-14\nمناسبت: شهادت امام رضا علیه السلام\
+ nتعطیل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1836,11 +1837,9 @@ UID:jalali-1405-05-30@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
-SUMMARY:جمعه، 30 مرداد — شهادت امام حسن عسکر
- ی علیه السلام
+SUMMARY:جمعه، 30 مرداد
 DESCRIPTION:تاریخ شمسی: 1405/05/30\nتاریخ میلادی: 202
- 6-08-21\nمناسبت: شهادت امام حسن عسکری علیه ا
- لسلام\nتعطیل رسمی طبق دادهٔ منبع
+ 6-08-21
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1849,9 +1848,11 @@ UID:jalali-1405-05-31@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
-SUMMARY:شنبه، 31 مرداد
+SUMMARY:شنبه، 31 مرداد — شهادت امام حسن عسکر
+ ی علیه السلام
 DESCRIPTION:تاریخ شمسی: 1405/05/31\nتاریخ میلادی: 202
- 6-08-22
+ 6-08-22\nمناسبت: شهادت امام حسن عسکری علیه ا
+ لسلام\nتعطیل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1946,13 +1947,11 @@ DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:یکشنبه، 8 شهریور — انفجار در دفتر نخ
  ست‌وزیری جمهوری اسلامی ایران، روز مبار
- زه با تروریسم / میلاد رسول اکرم و امام جع
- فر صادق علیه السلام
+ زه با تروریسم
 DESCRIPTION:تاریخ شمسی: 1405/06/08\nتاریخ میلادی: 202
  6-08-30\nمناسبت: انفجار در دفتر نخست‌وزیری 
  جمهوری اسلامی ایران، روز مبارزه با ترور
- یسم / میلاد رسول اکرم و امام جعفر صادق عل
- یه السلام\nتعطیل رسمی طبق دادهٔ منبع
+ یسم
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1961,9 +1960,12 @@ UID:jalali-1405-06-09@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-SUMMARY:دوشنبه، 9 شهریور
+SUMMARY:دوشنبه، 9 شهریور — میلاد رسول اکرم و
+  امام جعفر صادق علیه السلام
 DESCRIPTION:تاریخ شمسی: 1405/06/09\nتاریخ میلادی: 202
- 6-08-31
+ 6-08-31\nمناسبت: میلاد رسول اکرم و امام جعفر
+  صادق علیه السلام\nتعطیل رسمی طبق دادهٔ 
+ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2965,11 +2967,9 @@ UID:jalali-1405-08-22@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:جمعه، 22 آبان — شهادت حضرت فاطمه زهر
- ا سلام الله علیها
+SUMMARY:جمعه، 22 آبان
 DESCRIPTION:تاریخ شمسی: 1405/08/22\nتاریخ میلادی: 202
- 6-11-13\nمناسبت: شهادت حضرت فاطمه زهرا سلام 
- الله علیها\nتعطیل رسمی طبق دادهٔ منبع
+ 6-11-13
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2978,9 +2978,12 @@ UID:jalali-1405-08-23@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:شنبه، 23 آبان — روز جهانی دیابت
+SUMMARY:شنبه، 23 آبان — روز جهانی دیابت / شها
+ دت حضرت فاطمه زهرا سلام الله علیها
 DESCRIPTION:تاریخ شمسی: 1405/08/23\nتاریخ میلادی: 202
- 6-11-14\nمناسبت: روز جهانی دیابت
+ 6-11-14\nمناسبت: روز جهانی دیابت / شهادت حضر
+ ت فاطمه زهرا سلام الله علیها\nتعطیل رسمی
+  طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4230,11 +4233,9 @@ UID:jalali-1405-12-09@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:یکشنبه، 9 اسفند — شب قدر / شهادت حضرت
-  علی علیه السلام
+SUMMARY:یکشنبه، 9 اسفند — شب قدر
 DESCRIPTION:تاریخ شمسی: 1405/12/09\nتاریخ میلادی: 202
- 7-02-28\nمناسبت: شب قدر / شهادت حضرت علی علیه
-  السلام\nتعطیل رسمی طبق دادهٔ منبع
+ 7-02-28\nمناسبت: شب قدر
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4243,9 +4244,11 @@ UID:jalali-1405-12-10@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-SUMMARY:دوشنبه، 10 اسفند
+SUMMARY:دوشنبه، 10 اسفند — شهادت حضرت علی عل
+ یه السلام
 DESCRIPTION:تاریخ شمسی: 1405/12/10\nتاریخ میلادی: 202
- 7-03-01
+ 7-03-01\nمناسبت: شهادت حضرت علی علیه السلام\
+ nتعطیل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
