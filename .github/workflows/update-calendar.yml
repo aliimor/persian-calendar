@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# Avoid two calendar-generation runs racing to update the feed.
+concurrency:
+  group: calendar-feed-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -37,6 +42,8 @@ jobs:
           git add calendars/persian.ics
           if ! git diff --cached --quiet; then
             git commit -m "Update generated Persian calendar"
+            # Rebase on any commits that landed after checkout (for example, audit docs).
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           else
             echo "Calendar feed is already up to date."
