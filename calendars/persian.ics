@@ -287,11 +287,9 @@ UID:jalali-1405-01-24@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
-SUMMARY:دوشنبه، 24 فروردین — شهادت امام جعفر
-  صادق علیه السلام
+SUMMARY:دوشنبه، 24 فروردین
 DESCRIPTION:تاریخ شمسی: 1405/01/24\nتاریخ میلادی: 202
- 6-04-13\nمناسبت: شهادت امام جعفر صادق علیه ا
- لسلام\nتعطیل رسمی طبق دادهٔ منبع
+ 6-04-13
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -300,10 +298,13 @@ UID:jalali-1405-01-25@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
-SUMMARY:سه‌شنبه، 25 فروردین — روز بزرگداشت 
- عطار نیشابوری
+SUMMARY:سه‌شنبه، 25 فروردین — شهادت امام جع
+ فر صادق علیه السلام / روز بزرگداشت عطار 
+ نیشابوری
 DESCRIPTION:تاریخ شمسی: 1405/01/25\nتاریخ میلادی: 202
- 6-04-14\nمناسبت: روز بزرگداشت عطار نیشابوری
+ 6-04-14\nمناسبت: شهادت امام جعفر صادق علیه ا
+ لسلام / روز بزرگداشت عطار نیشابوری\nتعطی
+ ل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2964,9 +2965,11 @@ UID:jalali-1405-08-22@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:جمعه، 22 آبان
+SUMMARY:جمعه، 22 آبان — شهادت حضرت فاطمه زهر
+ ا سلام الله علیها
 DESCRIPTION:تاریخ شمسی: 1405/08/22\nتاریخ میلادی: 202
- 6-11-13
+ 6-11-13\nمناسبت: شهادت حضرت فاطمه زهرا سلام 
+ الله علیها\nتعطیل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2975,12 +2978,9 @@ UID:jalali-1405-08-23@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:شنبه، 23 آبان — روز جهانی دیابت / شها
- دت حضرت فاطمه زهرا سلام الله علیها
+SUMMARY:شنبه، 23 آبان — روز جهانی دیابت
 DESCRIPTION:تاریخ شمسی: 1405/08/23\nتاریخ میلادی: 202
- 6-11-14\nمناسبت: روز جهانی دیابت / شهادت حضر
- ت فاطمه زهرا سلام الله علیها\nتعطیل رسمی
-  طبق دادهٔ منبع
+ 6-11-14\nمناسبت: روز جهانی دیابت
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
