@@ -76,26 +76,50 @@ def main() -> None:
             gdate = jd.togregorian()
             key = f"{jd.year:04d}/{jd.month:02d}/{jd.day:02d}"
             day_name = WEEKDAYS[gdate.weekday()]
-            title = f"{day_name}، {jd.day} {MONTHS[jd.month - 1]}"
-            description = f"تاریخ شمسی: {jd.year:04d}/{jd.month:02d}/{jd.day:02d}\nتاریخ میلادی: {gdate.isoformat()}"
-            events = event_map.get(key, [])
-            if events:
-                labels = [e["title"] for e in events]
-                title += " — " + " / ".join(labels)
-                description += "\nمناسبت: " + " / ".join(labels)
-                if any(e.get("category") == "official-holiday" for e in events):
-                    description += "\nتعطیل رسمی طبق دادهٔ منبع"
+            month_name = MONTHS[jd.month - 1]
             start = gdate.strftime("%Y%m%d")
             end = (gdate.fromordinal(gdate.toordinal() + 1)).strftime("%Y%m%d")
-            uid = f"jalali-{jd.year}-{jd.month:02d}-{jd.day:02d}@persian-calendar.aliimor.github.io"
+            date_description = (
+                f"تاریخ شمسی: {jd.year:04d}/{jd.month:02d}/{jd.day:02d}\\n"
+                f"تاریخ میلادی: {gdate.isoformat()}"
+            )
+            events = event_map.get(key, [])
+            labels = [event["title"].strip() for event in events if event.get("title", "").strip()]
+
+            # One compact all-day event per date: this is the Jalali date label
+            # intended to appear in Apple Calendar's month view.
+            date_uid = f"jalali-date-{start}@persian-calendar.aliimor.github.io"
             lines.extend([
                 "BEGIN:VEVENT",
-                f"UID:{uid}",
+                f"UID:{date_uid}",
                 f"DTSTAMP:{DTSTAMP}",
                 f"DTSTART;VALUE=DATE:{start}",
                 f"DTEND;VALUE=DATE:{end}",
-                f"SUMMARY:{escape_ics(title)}",
-                f"DESCRIPTION:{escape_ics(description)}",
+                f"SUMMARY:{escape_ics(f'{jd.day} {month_name}')}",
+                f"DESCRIPTION:{escape_ics(date_description)}",
+                "TRANSP:TRANSPARENT",
+                "STATUS:CONFIRMED",
+                "END:VEVENT",
+            ])
+            count += 1
+
+            # A second event keeps weekday/occasions separate from the date label.
+            info_title = day_name
+            info_description = "مناسبت ثبت‌شده‌ای برای این روز وجود ندارد."
+            if labels:
+                info_title += " — " + " / ".join(labels)
+                info_description = "مناسبت‌های این روز:\\n" + "\\n".join(labels)
+                if any(event.get("category") == "official-holiday" for event in events):
+                    info_description += "\\nتعطیل رسمی طبق دادهٔ منبع"
+            info_uid = f"jalali-info-{start}@persian-calendar.aliimor.github.io"
+            lines.extend([
+                "BEGIN:VEVENT",
+                f"UID:{info_uid}",
+                f"DTSTAMP:{DTSTAMP}",
+                f"DTSTART;VALUE=DATE:{start}",
+                f"DTEND;VALUE=DATE:{end}",
+                f"SUMMARY:{escape_ics(info_title)}",
+                f"DESCRIPTION:{escape_ics(info_description)}",
                 "TRANSP:TRANSPARENT",
                 "STATUS:CONFIRMED",
                 "END:VEVENT",
@@ -104,7 +128,7 @@ def main() -> None:
 
     lines.append("END:VCALENDAR")
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text("\r\n".join(fold_line(line) for line in lines) + "\r\n", encoding="utf-8", newline="")
+    OUTPUT_FILE.write_text("\\r\\n".join(fold_line(line) for line in lines) + "\\r\\n", encoding="utf-8", newline="")
     print(f"Generated {count} all-day events in {OUTPUT_FILE}")
 
 
