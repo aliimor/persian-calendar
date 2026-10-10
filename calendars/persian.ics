@@ -287,9 +287,11 @@ UID:jalali-1405-01-24@persian-calendar.aliimor.github.io
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
-SUMMARY:دوشنبه، 24 فروردین
+SUMMARY:دوشنبه، 24 فروردین — شهادت امام جعفر
+  صادق علیه السلام
 DESCRIPTION:تاریخ شمسی: 1405/01/24\nتاریخ میلادی: 202
- 6-04-13
+ 6-04-13\nمناسبت: شهادت امام جعفر صادق علیه ا
+ لسلام\nتعطیل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -299,12 +301,9 @@ DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
 SUMMARY:سه‌شنبه، 25 فروردین — روز بزرگداشت 
- عطار نیشابوری / شهادت امام جعفر صادق علی
- ه السلام
+ عطار نیشابوری
 DESCRIPTION:تاریخ شمسی: 1405/01/25\nتاریخ میلادی: 202
  6-04-14\nمناسبت: روز بزرگداشت عطار نیشابوری
-  / شهادت امام جعفر صادق علیه السلام\nتعطی
- ل رسمی طبق دادهٔ منبع
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
