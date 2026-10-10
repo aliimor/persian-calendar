@@ -20,6 +20,22 @@ ALLOWED_CATEGORIES = {
 }
 DATE_PATTERN = re.compile(r"^(\d{4})/(\d{2})/(\d{2})$")
 
+# Dates checked against the repository's 1405 calendar cross-check.
+# Revisit these assertions when the official calendar PDF is verified.
+EXPECTED_1405_EVENT_DATES = {
+    "شهادت امام جعفر صادق": "1405/01/25",
+    "عید سعید قربان": "1405/03/07",
+    "عید سعید غدیر خم": "1405/03/15",
+    "تاسوعای حسینی": "1405/04/04",
+    "عاشورای حسینی": "1405/04/05",
+    "شهادت امام رضا": "1405/05/23",
+    "شهادت امام حسن عسکری": "1405/05/31",
+    "میلاد رسول اکرم و امام جعفر صادق": "1405/06/09",
+    "شهادت حضرت فاطمه زهرا": "1405/08/23",
+    "شهادت حضرت علی": "1405/12/10",
+}
+
+
 
 def normalize_title(value: str) -> str:
     return " ".join(value.split()).casefold()
@@ -87,6 +103,24 @@ def main() -> int:
         else:
             seen[key] = index
         titles_by_date[date_text].append(title)
+
+
+    if coverage == "1405":
+        for title_fragment, expected_date in EXPECTED_1405_EVENT_DATES.items():
+            matches = [
+                event for event in events
+                if isinstance(event, dict)
+                and isinstance(event.get("title"), str)
+                and title_fragment in event["title"]
+            ]
+            if len(matches) != 1:
+                errors.append(
+                    f"Expected exactly one 1405 event matching {title_fragment!r}; found {len(matches)}."
+                )
+            elif matches[0].get("date") != expected_date:
+                errors.append(
+                    f"{title_fragment!r} must be on {expected_date}, found {matches[0].get('date')}."
+                )
 
     if not events:
         errors.append("No events found in the dataset.")
