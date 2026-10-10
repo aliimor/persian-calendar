@@ -80,7 +80,7 @@ def main() -> None:
             start = gdate.strftime("%Y%m%d")
             end = (gdate.fromordinal(gdate.toordinal() + 1)).strftime("%Y%m%d")
             date_description = (
-                f"تاریخ شمسی: {jd.year:04d}/{jd.month:02d}/{jd.day:02d}\\n"
+                f"تاریخ شمسی: {jd.year:04d}/{jd.month:02d}/{jd.day:02d}\n"
                 f"تاریخ میلادی: {gdate.isoformat()}"
             )
             events = event_map.get(key, [])
@@ -108,9 +108,9 @@ def main() -> None:
             info_description = "مناسبت ثبت‌شده‌ای برای این روز وجود ندارد."
             if labels:
                 info_title += " — " + " / ".join(labels)
-                info_description = "مناسبت‌های این روز:\\n" + "\\n".join(labels)
+                info_description = "مناسبت‌های این روز:\n" + "\n".join(labels)
                 if any(event.get("category") == "official-holiday" for event in events):
-                    info_description += "\\nتعطیل رسمی طبق دادهٔ منبع"
+                    info_description += "\nتعطیل رسمی طبق دادهٔ منبع"
             info_uid = f"jalali-info-{start}@persian-calendar.aliimor.github.io"
             lines.extend([
                 "BEGIN:VEVENT",
@@ -128,7 +128,7 @@ def main() -> None:
 
     lines.append("END:VCALENDAR")
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text("\\r\\n".join(fold_line(line) for line in lines) + "\\r\\n", encoding="utf-8", newline="")
+    OUTPUT_FILE.write_text("\r\n".join(fold_line(line) for line in lines) + "\r\n", encoding="utf-8", newline="")
     print(f"Generated {count} all-day events in {OUTPUT_FILE}")
 
 
