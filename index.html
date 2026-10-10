@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="اشتراک رایگان تقویم فارسی با تاریخ شمسی و مناسبت‌های ایران">
+  <title>تقویم فارسی | اشتراک رایگان</title>
+  <style>
+    :root { color-scheme: light dark; --accent: #16a085; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Tahoma, "Segoe UI", sans-serif; line-height: 1.9; background: Canvas; color: CanvasText; }
+    main { width: min(760px, calc(100% - 32px)); margin: 48px auto; }
+    .hero { padding: 30px; border: 1px solid color-mix(in srgb, CanvasText 15%, transparent); border-radius: 22px; }
+    .tag { color: var(--accent); font-weight: bold; }
+    h1 { margin: 8px 0; font-size: clamp(1.8rem, 5vw, 3rem); }
+    p { margin: 10px 0 18px; }
+    .link { display: inline-block; padding: 10px 18px; border-radius: 12px; background: var(--accent); color: white; text-decoration: none; font-weight: bold; }
+    code { direction: ltr; unicode-bidi: embed; overflow-wrap: anywhere; display: block; padding: 14px; border-radius: 10px; background: color-mix(in srgb, CanvasText 8%, transparent); }
+    section { margin-top: 28px; }
+    li { margin: 8px 0; }
+    footer { opacity: .75; font-size: .9rem; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <div class="tag">رایگان • متن‌باز • قابل اشتراک</div>
+      <h1>تقویم فارسی ایران</h1>
+      <p>تاریخ شمسی روزانه در کنار تعطیلات و مناسبت‌های ثبت‌شده؛ یک لینک برای تقویم‌های سازگار با iCalendar.</p>
+      <p><a class="link" href="calendars/persian.ics">دریافت فایل تقویم (.ics)</a></p>
+      <p>لینک اشتراک:</p>
+      <code id="feed-url">https://aliimor.github.io/persian-calendar/calendars/persian.ics</code>
+      <button id="copy" type="button">کپی لینک اشتراک</button>
+      <span id="copy-status" aria-live="polite"></span>
+    </div>
+    <section>
+      <h2>چطور مشترک شویم؟</h2>
+      <ol>
+        <li>لینک اشتراک را کپی کنید.</li>
+        <li>در برنامهٔ تقویم دستگاه، گزینهٔ افزودن تقویم اشتراکی را انتخاب کنید.</li>
+        <li>لینک را وارد کنید و ذخیره بزنید. برای به‌روزرسانی‌های بعدی، اشتراک را حذف نکنید.</li>
+      </ol>
+      <p>در آیفون معمولاً مسیر از تنظیمات حساب‌های تقویم و گزینهٔ Add Subscribed Calendar در دسترس است. نام گزینه‌ها ممکن است با نسخهٔ سیستم‌عامل فرق کند.</p>
+    </section>
+    <section>
+      <h2>دربارهٔ دقت مناسبت‌ها</h2>
+      <p>تاریخ‌های روزانه با کتابخانهٔ محاسباتی تقویم جلالی تولید می‌شوند. دادهٔ تعطیلات فعلی برای سال ۱۴۰۵ اولیه است و پیش از معرفی عمومی باید با تقویم رسمی کشور تطبیق نهایی شود؛ تاریخ مناسبت‌های قمری ممکن است نیازمند اصلاح رسمی باشد.</p>
+    </section>
+    <footer>پروژهٔ جامعه‌محور تقویم فارسی — میزبانی با GitHub Pages</footer>
+  </main>
+  <script>
+    document.getElementById("copy").addEventListener("click", async () => {
+      const url = document.getElementById("feed-url").textContent.trim();
+      try {
+        await navigator.clipboard.writeText(url);
+        document.getElementById("copy-status").textContent = " لینک کپی شد.";
+      } catch {
+        document.getElementById("copy-status").textContent = " لینک را از کادر بالا کپی کنید.";
+      }
+    });
+  </script>
+</body>
+</html>
