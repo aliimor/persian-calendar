@@ -26,6 +26,8 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Validate event data
+        run: python scripts/validate_events.py
       - name: Generate feed
         run: python scripts/generate_calendar.py
       - name: Commit generated feed when changed
